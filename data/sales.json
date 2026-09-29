@@ -1,0 +1,28 @@
+[
+  {
+    "id": "sale-1790694000000-demo1",
+    "clienteNome": "Mariana Souza",
+    "clienteWhatsapp": "(11) 98765-4321",
+    "nomeParceiro": "Rodrigo",
+    "valor": 9.9,
+    "categoria": "Consulta",
+    "tipoTrabalho": "Consulta Oracular com Mãe Bety",
+    "dataVenda": "2026-09-29T12:30:00.000Z",
+    "metodoPagamento": "PIX",
+    "observacoes": "PIX de R$ 9,90 confirmado via WhatsApp. Diagnóstico de afastamento entregue.",
+    "status": "confirmado"
+  },
+  {
+    "id": "sale-1790694100000-demo2",
+    "clienteNome": "Juliana Silveira",
+    "clienteWhatsapp": "(71) 99123-8877",
+    "nomeParceiro": "Marcos",
+    "valor": 350,
+    "categoria": "Trabalho Espiritual",
+    "tipoTrabalho": "Adoçamento & Afastamento de Rival",
+    "dataVenda": "2026-09-29T14:15:00.000Z",
+    "metodoPagamento": "PIX",
+    "observacoes": "Trabalho espiritual de 7 dias firmado no gongá para cortar demanda de terceira pessoa.",
+    "status": "confirmado"
+  }
+]

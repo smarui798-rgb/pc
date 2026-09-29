@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@layer base {
+  html, body {
+    overflow-x: hidden;
+    touch-action: manipulation;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    background-color: #120305;
+    color: #fce7e7;
+  }
+
+  /* Prevent auto-zooming on mobile iOS and Android by ensuring min 16px font-size */
+  input, select, textarea {
+    font-size: 16px !important;
+  }
+}
+
+.font-serif-sacred {
+  font-family: 'Cinzel', Georgia, serif;
+}
+
+.font-sans-clean {
+  font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+}
+
+/* Custom scrollbar for deep red sacred theme */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #170407;
+}
+::-webkit-scrollbar-thumb {
+  background: #7f1d1d;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #991b1b;
+}
+
